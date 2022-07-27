@@ -1,0 +1,221 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196f3;
+    --primary-white-color: #FFFFFF;
+    --primary-background-color: #2F303A;
+    --secondary-background-color: #F5F4FA;
+    --logo-text-color: #000000;
+    --address-text-color: rgba(255, 255, 255, 0.6);
+}
+
+/*Основні стилі для body*/
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+}
+
+.list {
+    list-style: none; 
+}
+
+.link {
+    color: var(--primary-text-color);
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+
+/* Стилі для логотипу хедера*/
+.logo {
+    color: var(--logo-text-color);
+    font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+text-decoration: none;  
+}
+
+.logo > .accent {
+    color: var(--accent-color);
+}
+
+/*Навігація сайту*/
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/*Секція hero*/
+.hero {
+background-color: var(--primary-background-color);
+}
+
+.hero-title {
+        color: var(--primary-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+        text-transform: uppercase;
+}
+
+.button {
+    color: var(--title-text-color);
+    background-color: var(--secondary-background-color);
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    color: var(--primary-white-color);
+        background-color: var(--accent-color);
+}
+
+.primery {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.secondary {
+    color: var(--title-text-color);
+    background-color: var(--secondary-background-color);
+}
+
+.hero-button {
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+}
+
+/*Основні стилі для секцій*/
+.section-title {
+color: var(--title-text-color);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+}
+
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden; 
+}
+
+        /*Секція feature*/
+.feature-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+}
+
+/*Секція team*/
+.team {
+    background-color: var(--secondary-background-color);
+}
+
+.team-item {
+    background-color: var(--primary-white-color);
+text-align: center;
+line-height: 1.19;
+}
+
+.team-title {
+    color: var(--title-text-color);
+    font-weight: 500;
+        font-size: 16px;
+    }
+
+ .team-text {
+    font-size: 16px;
+    }
+
+
+/*Стилі для portfolio.html*/
+
+/*Секція filters*/
+.filter-button {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.62;
+   letter-spacing: 0.03em;
+   height: 38px;
+   width: auto;
+}
+ 
+   /*Секція еxamples*/
+.examples-title {
+color: var(--title-text-color);
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
+
+.examples-text {
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+/*Footer*/
+.footer {
+    background-color: var(--primary-background-color);
+}
+
+/*Стилі для логотипу футера*/
+.footer .logo {
+    color: var(--primary-white-color);  
+}
+
+/*Address*/
+.address-link,
+.mail-link,
+.phone-link {
+    color: var(--address-text-color);
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.address-link {
+    color: var(--primary-white-color);
+}
+
