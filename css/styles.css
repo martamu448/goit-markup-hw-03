@@ -26,6 +26,7 @@
 
 h1,
 h2,
+h3,
 p {
   margin-top: 0;
   margin-bottom: 0;
@@ -188,10 +189,12 @@ body {
 /* =============================Hero============================= */
 
 .hero {
+    width: 1600px;
+    height: 600px;
+    
     padding-top: 200px; 
-    padding-bottom: 280px;
     text-align: center;
-
+    
 background-color: var(--primary-background-color);
 }
 
@@ -255,7 +258,6 @@ img {
 /* =============================Feature============================= */
 
 .feature-title {
-    margin-top: 0;
     margin-bottom: 10px;
 
     color: var(--title-text-color);
@@ -269,12 +271,14 @@ img {
     display: flex;
 } 
 
-.feature-list .item {
+.feature-list-item {
     width: 270px;
 }
 
 /* =============================Work============================= */
-
+.work-section {
+    padding-top: 0;
+}
 .work-list {
 display: flex;
 }
@@ -285,7 +289,7 @@ display: flex;
 
 /* =============================Team============================= */
 
-.team {
+.team-section {
     background-color: var(--secondary-background-color);
 }
 
@@ -293,16 +297,18 @@ display: flex;
     display: flex;
     text-align: center;
     }
-    
-.team-list .item {
+
+.team-list-item {
     width: 270px;
 
     background-color: var(--primary-white-color);
-    line-height: 1.19;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); 
+    line-height: 1.19;  
 }
-
+  
 .employees {
-    margin: 30px 10px;
+  padding: 30px 10px;
 }
 
 .team-title {
@@ -347,7 +353,7 @@ display: flex;
     flex-wrap: wrap;
 }
 
-.examples-list .item {
+.examples-list-item {
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
@@ -356,7 +362,7 @@ display: flex;
   border-left: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
 }
-   
+
 .examples-list .item:nth-child(3n) {
     margin-right: 0px;
 }
@@ -366,7 +372,7 @@ display: flex;
 }
 
 .examples {
-margin: 20px 24px;
+padding: 20px 24px;
 }
 
 .examples-title {
@@ -394,8 +400,9 @@ margin: 20px 24px;
 }
 
 .footer .logo {
+    display: block;
     margin-bottom: 20px;
-
+   
     color: var(--primary-white-color);  
 }
 
