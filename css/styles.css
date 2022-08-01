@@ -194,8 +194,10 @@ body {
     max-width: 1600px;
     height: 600px;
     
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 200px; 
+ 
     text-align: center;
     
 background-color: var(--primary-background-color);
