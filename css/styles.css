@@ -97,12 +97,14 @@ body {
 
 /* =============================Header, logo============================= */
 
+.page-header {
+    border-bottom: 1px solid #ECECEC;
+}
+
 .page-header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    border-bottom: 1px solid #ECECEC;
   }
 
 .logo {
@@ -189,9 +191,10 @@ body {
 /* =============================Hero============================= */
 
 .hero {
-    width: 1600px;
+    max-width: 1600px;
     height: 600px;
     
+    margin: auto;
     padding-top: 200px; 
     text-align: center;
     
