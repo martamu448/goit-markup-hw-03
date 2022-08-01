@@ -196,18 +196,18 @@ body {
     
     margin-right: auto;
     margin-left: auto;
-    padding-top: 200px; 
  
     text-align: center;
     
-background-color: var(--primary-background-color);
+    background-color: var(--primary-background-color);
 }
 
 .hero-title {
-   width: 696px;
+    width: 696px;
     margin-bottom: 30px;
     margin-right: auto;
     margin-left: auto;
+    padding-top: 200px; 
 
     color: var(--primary-white-color);
     font-weight: 900;
